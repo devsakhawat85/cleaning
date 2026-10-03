@@ -4,8 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
 
-# SPA fallback redirect for Netlify
 [[redirects]]
   from = "/*"
   to = "/index.html"
