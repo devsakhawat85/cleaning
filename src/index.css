@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy-950: #001730;
+  --color-brand-navy-900: #002244;
+  --color-brand-navy-800: #003060;
+  --color-brand-navy: #003D79;
+  --color-brand-navy-600: #0052A3;
+  --color-brand-navy-500: #0066CC;
+  --color-brand-navy-100: #E6F0FA;
+  --color-brand-navy-50: #F0F6FC;
+
+  --color-brand-gold-900: #8A6100;
+  --color-brand-gold-700: #B88200;
+  --color-brand-gold-600: #D99B00;
+  --color-brand-gold: #FCB913;
+  --color-brand-gold-400: #FFC942;
+  --color-brand-gold-200: #FFE7A0;
+  --color-brand-gold-100: #FFF5D6;
+  --color-brand-gold-50: #FFFAF0;
+
+  --font-display: "Sora", "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #FCB913;
+  outline-offset: 2px;
+}
+
+/* Interactive slider utilities */
+.slider-handle {
+  touch-action: pan-y;
+  cursor: ew-resize;
+}

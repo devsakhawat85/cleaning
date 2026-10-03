@@ -1,0 +1,6 @@
+{
+  "name": "JMD Janitorial – Commercial Cleaning & Janitorial Services",
+  "description": "Premium commercial janitorial, office cleaning, school sanitation, and electrostatic disinfecting services in Mercer County, NJ. Fully licensed & insured.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
